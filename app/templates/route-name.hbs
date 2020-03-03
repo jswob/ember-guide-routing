@@ -2,3 +2,29 @@
 <LinkTo @route="application">
   Application
 </LinkTo>
+
+<br />
+
+<h3>
+  Songs
+</h3>
+
+<ul>
+  {{#each this.model.songs as |song|}}
+    <li>
+      {{song.name}}
+    </li>
+  {{/each}}
+</ul>
+
+<h3>
+  Albums
+</h3>
+
+<ul>
+  {{#each this.model.albums as |album|}}
+    <li>
+      {{album.name}}
+    </li>
+  {{/each}}
+</ul>
