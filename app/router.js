@@ -12,4 +12,5 @@ Router.map(function() {
     this.route("index", { path: "/" });
     this.route("post", { path: "/:post_id" });
   });
+  this.route('redirect-route');
 });
