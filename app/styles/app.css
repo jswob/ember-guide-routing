@@ -1,0 +1,13 @@
+.slow-div {
+  margin: 20px;
+  width: 100px;
+  padding: 15px;
+  background-color: pink;
+}
+
+.fast-div {
+  margin: 20px;
+  width: 100px;
+  padding: 15px;
+  background-color: cyan;
+}

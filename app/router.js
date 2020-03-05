@@ -13,4 +13,5 @@ Router.map(function() {
     this.route("post", { path: "/:post_id" });
   });
   this.route('redirect-route');
+  this.route('slow-model');
 });
