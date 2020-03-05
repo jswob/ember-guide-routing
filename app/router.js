@@ -14,4 +14,5 @@ Router.map(function() {
   });
   this.route('redirect-route');
   this.route('slow-model');
+  this.route('query-params');
 });
